@@ -19,7 +19,7 @@ Estrategia de Selección:** Se eligió **XGBoost** frente a Random Forest debido
 
 🛠️ Estructura del Repositorio
 
-src/
+
 ├── data/
 │   └── hotel_bookings_cleaned.csv       # Dataset procesado tras Feature Engineering
 ├── notebooks/
@@ -31,6 +31,7 @@ src/
 │   └── columnas_modelo_final_hotel.pkl  # Listado de variables para asegurar consistencia
 ├── Memoria_proyecto_ML.pdf              # Documentación técnica y conclusiones de negocio
 └── requirements.txt                     # Librerías necesarias para ejecutar el proyecto
+
 
 🚀 Metodología Detallada
 1. Feature Engineering (Ingeniería de Variables)
