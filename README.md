@@ -15,7 +15,7 @@ Para este problema de negocio, se priorizó la capacidad de detección (Recall) 
 | **F1-Score** | **0.71** | **Equilibrio óptimo:** Logramos un balance robusto entre la detección masiva de cancelaciones y el mantenimiento de una precisión aceptable. |
 | **Estabilidad (K-Fold)** | **±0.0082** | **Consistencia:** La bajísima desviación estándar confirma que el modelo es estable y funcionará con la misma eficacia ante nuevos datos. |
 
-> **Estrategia de Selección:** Se eligió **XGBoost** frente a Random Forest debido a que este último, aunque presentaba un Accuracy similar, solo lograba un Recall del 45%, resultando ineficaz para los objetivos de optimización de ingresos del hotel.
+Estrategia de Selección:** Se eligió **XGBoost** frente a Random Forest debido a que este último, aunque presentaba un Accuracy similar, solo lograba un Recall del 45%, resultando ineficaz para los objetivos de optimización de ingresos del hotel.
 
 🛠️ Estructura del Repositorio
 src/
