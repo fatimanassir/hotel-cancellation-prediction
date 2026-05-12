@@ -19,6 +19,7 @@ Estrategia de Selección:** Se eligió **XGBoost** frente a Random Forest debido
 
 🛠️ Estructura del Repositorio
 
+```text
 src/
 ├── data/
 │   └── hotel_bookings_cleaned.csv       # Dataset procesado tras Feature Engineering
