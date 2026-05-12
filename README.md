@@ -65,5 +65,6 @@ import pickle
 # Cargar modelo y escalador
 model = pickle.load(open('models/modelo_final_hotel.pkl', 'rb'))
 scaler = pickle.load(open('models/escalador_hotel.pkl', 'rb'))
+
 ✒️ Autora
 Nassirdine El Mourif Fatima
