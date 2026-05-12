@@ -17,6 +17,7 @@ F1-Score: 0.71
 Estabilidad: Validación Cruzada (K-fold) con desviación estándar de solo 0.0082.
 
 🛠️ Estructura del Repositorio
+
 01_EDA_Feature_Engineering.ipynb: Limpieza de datos, análisis exploratorio y creación de nuevas variables (como total_guests, total_stays, room_changed).
 
 02_Modelos_Machine_Learning.ipynb: Comparativa de modelos (Regresión Logística, Random Forest y XGBoost) y optimización final.
