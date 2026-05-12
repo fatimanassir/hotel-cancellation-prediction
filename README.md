@@ -18,6 +18,7 @@ Para este problema de negocio, se priorizó la capacidad de detección (Recall) 
 Estrategia de Selección:** Se eligió **XGBoost** frente a Random Forest debido a que este último, aunque presentaba un Accuracy similar, solo lograba un Recall del 45%, resultando ineficaz para los objetivos de optimización de ingresos del hotel.
 
 🛠️ Estructura del Repositorio
+
 src/
 ├── data/
 │   └── hotel_bookings_cleaned.csv       # Dataset procesado tras Feature Engineering
