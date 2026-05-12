@@ -8,13 +8,14 @@ La solución: Un sistema predictivo basado en XGBoost que permite al hotel ident
 📊 Resultados Clave
 Para este problema de negocio, se priorizó la capacidad de detección (Recall) sobre la precisión global, asegurando que el hotel capture la gran mayoría de las posibles bajas.
 
-Recall (Sensibilidad): 87% (Detectamos 9 de cada 10 cancelaciones reales).
+| Métrica | Resultado | Interpretación y Valor de Negocio |
+| :--- | :---: | :--- |
+| **Recall (Sensibilidad)** | **87%** | **Alta capacidad de detección:** Identificamos correctamente a casi 9 de cada 10 clientes que cancelarán, permitiendo acciones preventivas eficaces. |
+| **Accuracy (Exactitud)** | **80%** | **Fiabilidad global:** El modelo mantiene un alto porcentaje de aciertos totales en sus predicciones diarias. |
+| **F1-Score** | **0.71** | **Equilibrio óptimo:** Logramos un balance robusto entre la detección masiva de cancelaciones y el mantenimiento de una precisión aceptable. |
+| **Estabilidad (K-Fold)** | **±0.0082** | **Consistencia:** La bajísima desviación estándar confirma que el modelo es estable y funcionará con la misma eficacia ante nuevos datos. |
 
-Accuracy: 80%
-
-F1-Score: 0.71
-
-Estabilidad: Validación Cruzada (K-fold) con desviación estándar de solo 0.0082.
+> **Estrategia de Selección:** Se eligió **XGBoost** frente a Random Forest debido a que este último, aunque presentaba un Accuracy similar, solo lograba un Recall del 45%, resultando ineficaz para los objetivos de optimización de ingresos del hotel.
 
 🛠️ Estructura del Repositorio
 src/
